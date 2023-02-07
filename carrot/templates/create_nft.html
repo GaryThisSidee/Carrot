@@ -1,0 +1,25 @@
+{% extends 'layout.html' %}
+{% include 'nav.html' %}
+{% block content %}
+<h1 class="cret">Create a NFT</h1>
+<form action="{{ url_for('main_bp.createe') }}" method="post" enctype="multipart/form-data" >
+    {{ form.csrf_token }}
+  {{ form.asset_name.label }}
+
+    {{ form.asset_name }}
+
+  {{ form.unit_name.label }}
+
+    {{ form.unit_name }}
+
+  {{ form.url.label }}
+
+    {{ form.url }}
+  <label>Submit the metadata</label>
+  <input type="file" name="new">
+    {{ form.submit }}
+    {% if form.errors %}
+        <h2>Invalid submission</h2>
+    {% endif %}
+</form>
+{% endblock %}

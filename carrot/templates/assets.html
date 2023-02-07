@@ -1,0 +1,26 @@
+{% extends 'layout.html' %}
+{% include 'nav.html' %}
+{% block content %}
+<h1>Assets</h1>
+<h2 class="main"><a  href="{{ url_for('main_bp.create') }}">Create an Asset</a></h2>
+<table>
+    <tr>
+        <th style="width:110px;">Asset Name</th>
+        <th style="width:120px;">Unit Name</th>
+        <th style="width:60px;">Total</th>
+        <th style="width:80px;">Decimals</th>
+        <th style="width:60px;">Frozen</th>
+        <th class="url">URL</th>
+    </tr>
+    {% for asset in assets %}
+    <tr>
+        <td>{{ asset.params.name }}</td>
+        <td>{{ asset.params.get('unit-name') }}</td>
+        <td>{{ asset.params.total }}</td>
+        <td>{{ asset.params.decimals }}</td>
+        <td>{{ asset.params.get('default-frozen') }}</td>
+        <td class='ellipsis'><span>{{ asset.params.url }}</span></td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}

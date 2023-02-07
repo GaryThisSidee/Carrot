@@ -1,0 +1,9 @@
+{% extends 'layout.html' %}
+{% include 'nav.html' %}
+{% block content %}
+{% if success %}
+<h1>U have successfully created a asset! 🎉🎉</h1>
+{% else %}
+<h2>Error 😥 😥 Occured make sure u put the right info's and u have some funds to make a nft 🛑</h2>
+{% endif %}
+{% endblock %}
