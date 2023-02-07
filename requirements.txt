@@ -1,0 +1,4 @@
+flask
+flask-login
+flask-wtf
+py-algorand-sdk==1.18.0
