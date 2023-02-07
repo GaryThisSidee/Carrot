@@ -1,4 +1,4 @@
-from algowallet import create_app
+from carrot import create_app
 
 app = create_app()
 
