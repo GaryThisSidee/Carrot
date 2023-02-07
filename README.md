@@ -12,7 +12,7 @@ Creating an NFT on Carrot is a straightforward process. Users can upload an url,
 # Installation
 
 - Clone the repository
-  ```$ git clone https://github.com/GaryThisSidee/Alogrand_wallet.git```
+  ```$ git clone https://github.com/GaryThisSidee/Carrot.git```
 - Install the required packages
  ```$ pip install -r requirements.txt```
 - Make sure to put the testnet api key in the algod.py
