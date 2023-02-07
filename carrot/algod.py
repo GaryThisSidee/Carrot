@@ -10,7 +10,7 @@ import hashlib
 
 def algod_client():
     algod_address = "https://testnet-algorand.api.purestake.io/ps2"
-    algod_token = "3qxbpBOG8f4pUAbnRcv9ERt5HA9iS5j3D1OuLpn7"
+    algod_token = "put the api key here"
     headers = {
         "X-API-Key": algod_token,
     }
