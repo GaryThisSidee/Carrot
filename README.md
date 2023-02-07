@@ -9,6 +9,8 @@ The platform is built using the Algorand NFT SDK and Flask, a popular web develo
 
 Creating an NFT on Carrot is a straightforward process. Users can upload an url,upload the meta data and set a name. Once the NFT is created, it can be viewed in the assets section.
 
+vedio demo is [here](https://youtu.be/c70NsfAORdo)
+
 # Installation
 
 - Clone the repository
