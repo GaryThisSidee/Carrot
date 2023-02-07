@@ -18,7 +18,7 @@ Creating an NFT on Carrot is a straightforward process. Users can upload an url,
 - Make sure to put the testnet api key in the algod.py
 - Run the app
  ```$ flask --app main run```
- 
+- For testing purposes u can use the alice nft meta data if u don't have a meta data
 # Technical Details
 
 Carrot is built using the Algorand NFT SDK and Flask. The Algorand SDK provides a simple and straightforward way to interact with the Algorand blockchain, allowing for the efficient creation and transfer of NFTs. Flask, on the other hand, provides a lightweight and flexible web development framework, allowing for the creation of the platform's user-friendly interface.
