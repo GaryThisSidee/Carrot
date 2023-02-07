@@ -41,4 +41,5 @@ If you're interested in contributing to the development of Carrot or using the p
 
 <img width="954" alt="image" src="https://user-images.githubusercontent.com/121616196/217344965-311b53a5-b4bc-4b6c-8681-07977d37fd3d.png">
 
+<img width="955" alt="image" src="https://user-images.githubusercontent.com/121616196/217345817-f8f27594-64c4-4dac-b8b0-422f20c70e33.png">
 
